@@ -26,11 +26,23 @@
       margin-bottom: 28px;
       font-size: 0.95rem;
     }
+    .button {
+      display: inline-block;
+      background: #2f6f4e;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      margin-top: 8px;
+    }
+    .button:hover { background: #255a3f; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: July 5, 2026</p>
+  <p class="updated">Last updated: July 6, 2026</p>
 
   <p class="beta"><strong>ResiboNow is currently in beta.</strong> All features are free to use during this beta period — no payment or subscription is required, and no payment processor is integrated yet.</p>
 
@@ -74,8 +86,24 @@
     <li><strong>Photo library access</strong> — requested only when you choose to upload a business logo or profile photo. We do not access your photos at any other time.</li>
   </ul>
 
-  <h2>7. Data Retention and Deletion</h2>
-  <p>We retain your data for as long as your account is active. You can permanently delete your account and associated data at any time from within the app (Account Settings), which requires re-entering your password to confirm.</p>
+  <h2 id="delete-account">7. Data Retention and Deletion</h2>
+  <p>We retain your data for as long as your account is active. You can permanently delete your account and associated data at any time from within the app: go to <strong>Account Settings → Delete Account</strong> and re-enter your password to confirm. This is instant and does not require contacting us.</p>
+
+  <p><strong>If you no longer have access to the app</strong> (e.g. you uninstalled it, or can't sign in), you can request deletion by emailing us from the address on your account:</p>
+  <p>
+    <a class="button" href="mailto:wuffaloeight@gmail.com?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20ResiboNow%20account%20and%20associated%20data.%0A%0AAccount%20email%3A%20">
+      Request Account Deletion
+    </a>
+  </p>
+  <p>We will verify the request comes from the account owner and process it within a reasonable time. Deleting your account permanently removes:</p>
+  <ul>
+    <li>Your account and login credentials (email, name, hashed password)</li>
+    <li>Your business profile, including any uploaded logo</li>
+    <li>All client records you created</li>
+    <li>All invoices, receipts, and payment records</li>
+    <li>Any feedback you submitted through the in-app feedback tool</li>
+  </ul>
+  <p>Some data may be retained briefly in backups or logs for operational/security purposes before being fully purged, and we may retain minimal records where required by Philippine tax or accounting law (e.g. BIR-relevant transaction history), even after account deletion.</p>
 
   <h2>8. Security</h2>
   <p>Passwords are stored using one-way cryptographic hashing. Sessions use short-lived, signed access tokens with a separate refresh token; on mobile, these are stored using the device's secure storage (Android Keystore-backed). All traffic to our servers is encrypted in transit (HTTPS).</p>
@@ -84,7 +112,7 @@
   <p>ResiboNow is a business tool intended for use by adults operating a business or freelance practice in the Philippines. It is not directed at children, and we do not knowingly collect personal information from anyone under 13.</p>
 
   <h2>10. Your Rights</h2>
-  <p>You may access, correct, export, or delete your personal data at any time through the app, or by contacting us using the details below.</p>
+  <p>You may access, correct, export, or delete your personal data at any time through the app, or via our <a href="#delete-account">account deletion request</a> process above.</p>
 
   <h2>11. Changes to This Policy</h2>
   <p>We may update this Privacy Policy from time to time — including when payment processing or other new features are introduced after the beta period. Any changes will be reflected on this page with an updated date above.</p>
