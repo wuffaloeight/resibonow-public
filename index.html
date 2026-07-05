@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – ResiboNow</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 720px;
+      margin: 48px auto;
+      padding: 0 24px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    h2 { font-size: 1.1rem; margin-top: 32px; }
+    p, li { font-size: 0.97rem; color: #333; }
+    .updated { color: #888; font-size: 0.85rem; margin-bottom: 32px; }
+    a { color: #2f6f4e; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: July 5, 2026</p>
+
+  <p>This Privacy Policy applies to <strong>ResiboNow</strong> (the "App" or "Service"), a BIR-compliant Official Receipt and Sales Invoice generator for Philippine freelancers and small businesses, developed by Francis Almarez ("we", "us", "our"). It covers the web app, Android app, and backend services.</p>
+
+  <h2>1. Information We Collect</h2>
+  <p>To provide the Service, we collect:</p>
+  <ul>
+    <li><strong>Account information</strong> — your email address, first and last name, and a securely hashed password. We never store your password in plain text.</li>
+    <li><strong>Business profile</strong> — your business or legal name, address, Tax Identification Number (TIN), and an optional logo image you upload.</li>
+    <li><strong>Client records</strong> — names, company names, addresses, and TINs of your own customers, which you enter to generate invoices for them.</li>
+    <li><strong>Invoices and receipts</strong> — line items, amounts, taxes, discounts, payment terms, notes, and payment records (amount, method, date, reference) that you create.</li>
+    <li><strong>Feedback</strong> — any message, rating, or bug report you submit through the in-app feedback tool.</li>
+    <li><strong>Usage data (web only)</strong> — aggregated, anonymized product-usage events (e.g. invoice created, PDF downloaded) via Google Analytics, to help us understand which features are used. This does not include advertising or cross-site tracking.</li>
+  </ul>
+
+  <h2>2. Payment Processing</h2>
+  <p>Paid subscriptions and online invoice payments are processed by <strong>PayMongo</strong>, a licensed Philippine payment gateway. We never see or store your full card, bank, or e-wallet credentials — PayMongo handles that data directly under its own security and privacy practices.</p>
+
+  <h2>3. Where Your Data Is Stored</h2>
+  <p>Your account, business, client, and invoice data is stored in a managed PostgreSQL database (hosted by Supabase). Uploaded logo images are stored as encrypted-at-rest binary data in that same database — we do not use a separate third-party file-hosting service for your logo. Our backend runs on Fly.io; the web app is hosted on Vercel.</p>
+
+  <h2>4. Sharing Invoices</h2>
+  <p>When you generate a share link for an invoice, it creates a unique, unguessable link so your client can view or download that invoice without creating an account. Share links automatically expire 30 days after creation.</p>
+
+  <h2>5. Sending Emails</h2>
+  <p>If you use the "Send by Email" feature, we send the invoice PDF to the recipient email address you provide, using our transactional email service. We also send account-related emails (e.g. password reset) to the email address on your account.</p>
+
+  <h2>6. Third-Party Services</h2>
+  <p>We share the minimum data necessary with the following service providers, solely to operate the App:</p>
+  <ul>
+    <li><strong>Supabase</strong> — database hosting</li>
+    <li><strong>Fly.io</strong> — backend application hosting</li>
+    <li><strong>Vercel</strong> — web application hosting</li>
+    <li><strong>PayMongo</strong> — payment processing (subscriptions and invoice payment links)</li>
+    <li><strong>Google Analytics</strong> — anonymized usage analytics (web only)</li>
+    <li><strong>Google Play</strong> — Android app distribution</li>
+  </ul>
+  <p>We do not sell your personal information, and we do not use it for third-party advertising.</p>
+
+  <h2>7. Permissions (Android App)</h2>
+  <p>The Android app requests:</p>
+  <ul>
+    <li><strong>Internet access</strong> — required to sync your data with our servers.</li>
+    <li><strong>Photo library access</strong> — requested only when you choose to upload a business logo or profile photo. We do not access your photos at any other time.</li>
+  </ul>
+
+  <h2>8. Data Retention and Deletion</h2>
+  <p>We retain your data for as long as your account is active. You can permanently delete your account and associated data at any time from within the app (Account Settings), which requires re-entering your password to confirm.</p>
+
+  <h2>9. Security</h2>
+  <p>Passwords are stored using one-way cryptographic hashing. Sessions use short-lived, signed access tokens with a separate refresh token; on mobile, these are stored using the device's secure storage (Android Keystore-backed). All traffic to our servers is encrypted in transit (HTTPS).</p>
+
+  <h2>10. Children's Privacy</h2>
+  <p>ResiboNow is a business tool intended for use by adults operating a business or freelance practice in the Philippines. It is not directed at children, and we do not knowingly collect personal information from anyone under 13.</p>
+
+  <h2>11. Your Rights</h2>
+  <p>You may access, correct, export, or delete your personal data at any time through the app, or by contacting us using the details below.</p>
+
+  <h2>12. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date above.</p>
+
+  <h2>13. Contact</h2>
+  <p>If you have any questions about this Privacy Policy, please contact us at:<br/>
+  <a href="mailto:wuffaloeightcloud@gmail.com">wuffaloeightcloud@gmail.com</a></p>
+</body>
+</html>
